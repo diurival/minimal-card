@@ -1,0 +1,121 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: Poppins;
+	background-color: #F2F5F9;
+}
+
+.container{
+	width: 418px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+.hero{
+	display: flex;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.hero img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.sub-container{
+	padding: 15px 30px 30px 30px; 
+}
+
+.overlay{
+	top: 213px;
+	position: absolute;
+	img{
+		z-index: 10;
+	}
+}
+
+.title{
+	span{
+		font-size: 24px;
+		color: #111729;
+		font-weight: 500;
+	}
+}
+
+.description{
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 10px;
+
+	span{
+		font-family: Lato;
+		font-size: 16px;
+		color: #4A5567;
+		margin-bottom: 5px;
+	}
+}
+
+hr{
+	margin-top: 10px;
+	margin-left: -30px;
+	margin-right: -30px;
+	border: 1.5px solid #F2F5F9;
+}
+
+.foot{
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	gap: 10px;
+}
+
+.around{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	background-color: #F2F5F9;
+}
+
+.avatar{
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	overflow: hidden;
+}
+
+.avatar img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.foot span{
+	display: flex;
+	flex-flow: column wrap;
+	margin-left: 10px;
+
+	&.city{
+		font-size: 14px;
+		font-family: Lato;
+		color: #4A5567;
+	}
+
+	&.name{
+		font-size: 16px;
+		font-family: Lato;
+		color: #111729;
+		font-weight: bold;
+	}
+}
+
